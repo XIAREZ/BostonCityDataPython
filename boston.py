@@ -12,3 +12,5 @@ print(type(data))
 #convert the data to json
 js = json.loads(data)
 print(type(js))
+data = js["data"]
+print(data[0])
